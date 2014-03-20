@@ -55,3 +55,4 @@ enum _DCOclock{
 typedef enum _DCOclock DCOclock;
 
 void Setup_DCO(DCOclock which);
+extern unsigned long DCOFrequency;

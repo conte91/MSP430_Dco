@@ -1,5 +1,7 @@
 #include <msp430.h>
-#include "dco_calibration.h"
+#include "dco_custom_calibration.h"
+
+unsigned long DCOFrequency=1000000;
 
 void Setup_DCO(DCOclock which){
 
